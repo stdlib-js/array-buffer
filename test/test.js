@@ -52,7 +52,7 @@ tape( 'main export is a function', function test( t ) {
 
 tape( 'if an environment supports `ArrayBuffer`, the export is an alias for `ArrayBuffer`', function test( t ) {
 	var Foo = proxyquire( './../lib', {
-		'@stdlib/assert/has-arraybuffer-support': isTrue,
+		'@stdlib/assert-has-arraybuffer-support': isTrue,
 		'./arraybuffer.js': Mock
 	});
 	t.strictEqual( Foo, Mock, 'returns builtin' );
@@ -74,7 +74,7 @@ tape( 'if an environment supports `ArrayBuffer`, the export is an alias for `Arr
 
 tape( 'if an environment does not support `ArrayBuffer`, the export is a polyfill', function test( t ) {
 	var Foo = proxyquire( './../lib', {
-		'@stdlib/assert/has-arraybuffer-support': isFalse
+		'@stdlib/assert-has-arraybuffer-support': isFalse
 	});
 
 	t.strictEqual( Foo, polyfill, 'returns polyfill' );
