@@ -240,6 +240,22 @@ for ( i = 0; i < bytes.length; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/buffer/ctor`][@stdlib/buffer/ctor]: buffer.
+-   [`@stdlib/array/float32`][@stdlib/array/float32]: float32Array.
+-   [`@stdlib/array/float64`][@stdlib/array/float64]: float64Array.
+-   [`@stdlib/array/int16`][@stdlib/array/int16]: int16Array.
+-   [`@stdlib/array/int32`][@stdlib/array/int32]: int32Array.
+-   [`@stdlib/array/int8`][@stdlib/array/int8]: int8Array.
+-   [`@stdlib/array/shared-buffer`][@stdlib/array/shared-buffer]: sharedArrayBuffer.
+-   [`@stdlib/array/uint16`][@stdlib/array/uint16]: uint16Array.
+-   [`@stdlib/array/uint32`][@stdlib/array/uint32]: uint32Array.
+-   [`@stdlib/array/uint8`][@stdlib/array/uint8]: uint8Array.
+-   [`@stdlib/array/uint8c`][@stdlib/array/uint8c]: uint8ClampedArray.
+
 </section>
 
 <!-- /.related -->
@@ -302,6 +318,32 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-buffer/main/LICENSE
 
 [mdn-arraybuffer]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer
+
+<!-- <related-links> -->
+
+[@stdlib/buffer/ctor]: https://github.com/stdlib-js/buffer-ctor
+
+[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
+
+[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64
+
+[@stdlib/array/int16]: https://github.com/stdlib-js/array-int16
+
+[@stdlib/array/int32]: https://github.com/stdlib-js/array-int32
+
+[@stdlib/array/int8]: https://github.com/stdlib-js/array-int8
+
+[@stdlib/array/shared-buffer]: https://github.com/stdlib-js/array-shared-buffer
+
+[@stdlib/array/uint16]: https://github.com/stdlib-js/array-uint16
+
+[@stdlib/array/uint32]: https://github.com/stdlib-js/array-uint32
+
+[@stdlib/array/uint8]: https://github.com/stdlib-js/array-uint8
+
+[@stdlib/array/uint8c]: https://github.com/stdlib-js/array-uint8c
+
+<!-- </related-links> -->
 
 </section>
 
