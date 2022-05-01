@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-buffer",
-  "version": "0.0.0",
+  "version": "0.0.6",
   "description": "ArrayBuffer.",
   "license": "Apache-2.0",
   "author": {
