@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@deno/mod.js';
+import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@v0.1.0-deno/mod.js';
 ```
 
 #### ArrayBuffer( size )
@@ -202,7 +202,7 @@ import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
 import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@deno/mod.js';
 import toBinaryString from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-to-binary-string@deno/mod.js';
-import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@deno/mod.js';
+import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@v0.1.0-deno/mod.js';
 
 var bytes;
 var buf;
