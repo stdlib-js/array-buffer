@@ -45,19 +45,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-buffer
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@esm/index.mjs';
-```
-The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-buffer/tags). For example,
-
-```javascript
-import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@v0.1.0-esm/index.mjs';
+var ArrayBuffer = require( '@stdlib/array-buffer' );
 ```
 
 #### ArrayBuffer( size )
@@ -109,7 +120,7 @@ Static method which returns a `boolean` indicating if provided a buffer view.
 <!-- eslint-disable stdlib/require-globals -->
 
 ```javascript
-import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
+var Float64Array = require( '@stdlib/array-float64' );
 var view = new Float64Array( 10 );
 
 var bool = ArrayBuffer.isView( view );
@@ -202,17 +213,12 @@ var nbytes = b2.byteLength;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@esm/index.mjs';
-import toBinaryString from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-to-binary-string@esm/index.mjs';
-import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@esm/index.mjs';
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var Float64Array = require( '@stdlib/array-float64' );
+var Uint8Array = require( '@stdlib/array-uint8' );
+var toBinaryString = require( '@stdlib/number-uint8-base-to-binary-string' );
+var ArrayBuffer = require( '@stdlib/array-buffer' );
 
 var bytes;
 var buf;
@@ -235,10 +241,6 @@ bytes = new Uint8Array( arr.buffer );
 for ( i = 0; i < bytes.length; i++ ) {
     console.log( 'byte %d: %s', i, toBinaryString( bytes[ i ] ) );
 }
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -286,7 +288,7 @@ for ( i = 0; i < bytes.length; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -316,8 +318,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/array-buffer.svg
 [npm-url]: https://npmjs.org/package/@stdlib/array-buffer
 
-[test-image]: https://github.com/stdlib-js/array-buffer/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/array-buffer/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/array-buffer/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/array-buffer/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/array-buffer/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/array-buffer?branch=main
@@ -350,27 +352,27 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/buffer/ctor]: https://github.com/stdlib-js/buffer-ctor/tree/esm
+[@stdlib/buffer/ctor]: https://github.com/stdlib-js/buffer-ctor
 
-[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32/tree/esm
+[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
 
-[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64/tree/esm
+[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64
 
-[@stdlib/array/int16]: https://github.com/stdlib-js/array-int16/tree/esm
+[@stdlib/array/int16]: https://github.com/stdlib-js/array-int16
 
-[@stdlib/array/int32]: https://github.com/stdlib-js/array-int32/tree/esm
+[@stdlib/array/int32]: https://github.com/stdlib-js/array-int32
 
-[@stdlib/array/int8]: https://github.com/stdlib-js/array-int8/tree/esm
+[@stdlib/array/int8]: https://github.com/stdlib-js/array-int8
 
-[@stdlib/array/shared-buffer]: https://github.com/stdlib-js/array-shared-buffer/tree/esm
+[@stdlib/array/shared-buffer]: https://github.com/stdlib-js/array-shared-buffer
 
-[@stdlib/array/uint16]: https://github.com/stdlib-js/array-uint16/tree/esm
+[@stdlib/array/uint16]: https://github.com/stdlib-js/array-uint16
 
-[@stdlib/array/uint32]: https://github.com/stdlib-js/array-uint32/tree/esm
+[@stdlib/array/uint32]: https://github.com/stdlib-js/array-uint32
 
-[@stdlib/array/uint8]: https://github.com/stdlib-js/array-uint8/tree/esm
+[@stdlib/array/uint8]: https://github.com/stdlib-js/array-uint8
 
-[@stdlib/array/uint8c]: https://github.com/stdlib-js/array-uint8c/tree/esm
+[@stdlib/array/uint8c]: https://github.com/stdlib-js/array-uint8c
 
 <!-- </related-links> -->
 
