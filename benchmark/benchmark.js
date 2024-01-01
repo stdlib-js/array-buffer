@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var hasArrayBufferSupport = require( '@stdlib/assert-has-arraybuffer-support' );
 var isArrayBuffer = require( '@stdlib/assert-is-arraybuffer' );
 var pkg = require( './../package.json' ).name;
