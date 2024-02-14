@@ -54,7 +54,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-ArrayBuffer = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@umd/browser.js' )
+ArrayBuffer = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@v0.2.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -66,7 +66,7 @@ var ArrayBuffer = require( 'path/to/vendor/umd/array-buffer/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@v0.2.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -229,7 +229,7 @@ var nbytes = b2.byteLength;
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-to-binary-string@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@v0.2.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
