@@ -54,6 +54,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+ArrayBuffer = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-buffer/tags). For example,
+
+```javascript
 ArrayBuffer = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@v0.2.0-umd/browser.js' )
 ```
 
@@ -66,7 +71,7 @@ var ArrayBuffer = require( 'path/to/vendor/umd/array-buffer/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@v0.2.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -229,7 +234,7 @@ var nbytes = b2.byteLength;
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-to-binary-string@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@v0.2.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
