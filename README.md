@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@esm/index.mjs';
+import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@v0.2.2-esm/index.mjs';
 ```
 
 #### ArrayBuffer( size )
@@ -207,7 +207,7 @@ import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/i
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
 import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@esm/index.mjs';
 import toBinaryString from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-to-binary-string@esm/index.mjs';
-import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@esm/index.mjs';
+import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@v0.2.2-esm/index.mjs';
 
 var bytes;
 var buf;
