@@ -52,6 +52,7 @@
     "@stdlib/number-uint8-base-to-binary-string": "^0.2.3",
     "@stdlib/process-node-version": "^0.2.3",
     "@stdlib/random-base-randu": "^0.2.3",
+    "@stdlib/string-format": "^0.2.3",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
